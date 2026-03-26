@@ -6,7 +6,7 @@ I am **Zhipeng Song (宋智鹏)**, have recently completed my PhD at Ghent Unive
 
 ## Educations
 
-- **2021.12 -- 2026.3**, PhD, **Université Marie et Louis Pasteur** and **Universiteit Gent**, Supervisors: [Yulia Kuznetsova](https://ykuznetsova.pages.math.cnrs.fr/index.html) and [Michael Ruzhansky](https://ruzhansky.org)
+- **2021.12 -- 2026.03**, PhD, **Université Marie et Louis Pasteur** and **Universiteit Gent**, Supervisors: [Yulia Kuznetsova](https://ykuznetsova.pages.math.cnrs.fr/index.html) and [Michael Ruzhansky](https://ruzhansky.org)
 - **2020.08 -- 2021.12**, Graduate program, **Harbin Institute of Technology**, Supervisor: [Quanhua Xu](https://quanhuaxu.pages.math.cnrs.fr)
 - **2016.08 -- 2020.06**, BS, **Harbin Institute of Technology**
   
