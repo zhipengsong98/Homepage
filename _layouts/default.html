@@ -1,32 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
     <style>
-        /* 使用 html 选择器通常比 body 更有效 */
+        /* 1. 基础字号与整体布局 */
         html, body {
-            font-size: 21px !important;
-            line-height: 1.8 !important;
-            font-family: Georgia, serif;
+            font-size: 21px; /* 电脑端大字号 */
+            line-height: 1.8;
+            color: #333;
+            background-color: #fff;
+            font-family: "Georgia", "Times New Roman", "Source Han Serif SC", serif;
         }
 
+        body {
+            max-width: 850px; /* 限制宽度，方便阅读 */
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* 2. 移动端自适应 */
         @media (max-width: 768px) {
             html, body {
-                font-size: 18px !important;
+                font-size: 18px; /* 手机端稍微缩小一点，更协调 */
+            }
+            body {
+                padding: 20px 15px;
             }
         }
 
-        /* 限制内容宽度并居中 */
-        body {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+        /* 3. 增强链接和标题的可读性（可选） */
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        h1, h2, h3 { line-height: 1.3; margin-top: 1.5em; }
     </style>
 </head>
 
