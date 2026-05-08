@@ -35,6 +35,32 @@
         a { color: #007bff; text-decoration: none; }
         a:hover { text-decoration: underline; }
         h1, h2, h3 { line-height: 1.3; margin-top: 1.5em; }
+
+        /* 针对学术主页的细节微调 */
+h2 {
+    border-bottom: 2px solid #eee; /* 给标题加条横线，更有结构感 */
+    padding-bottom: 10px;
+    margin-top: 40px;
+    color: #2c3e50;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px; /* 列表项之间留点空隙，大字号下不显拥挤 */
+}
+
+strong {
+    color: #000; /* 让你的名字和合作者名字更突出 */
+}
+
+/* 让年份对齐更美观 */
+li b, li strong {
+    display: inline-block;
+    min-width: 100px; /* 如果你想让日期部分稍微对齐 */
+}
     </style>
 </head>
 
