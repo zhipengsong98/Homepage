@@ -1,7 +1,7 @@
 ---
 layout: default
+title: Zhipeng Song(宋智鹏)
 ---
-
 ## About Me
 
 Hi, welcome to **Zhipeng Song's** homepage. 
