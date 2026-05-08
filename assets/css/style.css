@@ -1,21 +1,27 @@
----
----
+body,
+.page-content,
+.wrapper,
+main {
+    font-size: 21px !important;
+    line-height: 1.8;
+}
 
 body {
-    font-size: 24px;
-    line-height: 1.8;
-
     max-width: 900px;
     margin: auto;
-
     padding: 20px;
-
     font-family: Georgia, serif;
 }
 
 @media (max-width: 768px) {
+    body,
+    .page-content,
+    .wrapper,
+    main {
+        font-size: 18px !important;
+    }
+
     body {
-        font-size: 18px;
         padding: 14px;
     }
 }
