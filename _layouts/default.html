@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>{{ page.title }}</title>
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        /* 使用 html 选择器通常比 body 更有效 */
+        html, body {
+            font-size: 21px !important;
+            line-height: 1.8 !important;
+            font-family: Georgia, serif;
+        }
+
+        @media (max-width: 768px) {
+            html, body {
+                font-size: 18px !important;
+            }
+        }
+
+        /* 限制内容宽度并居中 */
+        body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
 </head>
 
 <body>
