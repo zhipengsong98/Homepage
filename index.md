@@ -4,8 +4,8 @@ layout: default
 
 ## About Me
 
-Hi, welcome to my homepage. 
-I am **Zhipeng Song (宋智鹏)**. I obtained my PhD at Ghent University and Université Marie et Louis Pasteur. My research interests include: Harmonic analysis on symmetric spaces and PDEs on Lie groups. I am currently on the academic job market.
+Hi, welcome to **Zhipeng Song's** homepage. 
+I obtained my PhD at Ghent University and Université Marie et Louis Pasteur. My research interests include: Harmonic analysis on symmetric spaces and PDEs on Lie groups. I am currently on the academic job market.
 
 ## Educations
 
