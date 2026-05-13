@@ -8,7 +8,7 @@
     <style>
         /* 1. 基础字号与整体布局 */
         html, body {
-            font-size: 20px; /* 电脑端大字号 */
+            font-size: 21px; /* 电脑端大字号 */
             line-height: 1.8;
             color: #333;
             background-color: #fff;
@@ -24,49 +24,125 @@
         /* 2. 移动端自适应 */
         @media (max-width: 768px) {
             html, body {
-                font-size: 17px; /* 手机端稍微缩小一点，更协调 */
+                font-size: 18px; /* 手机端稍微缩小一点 */
             }
             body {
                 padding: 20px 15px;
             }
         }
 
-        /* 3. 增强链接和标题的可读性（可选） */
+        /* 3. 元素样式 */
         a { color: #007bff; text-decoration: none; }
         a:hover { text-decoration: underline; }
-        h1, h2, h3 { line-height: 1.3; margin-top: 1.5em; }
+        
+        h1 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            border-bottom: 3px solid #007bff;
+            display: inline-block;
+        }
 
-        /* 针对学术主页的细节微调 */
-h2 {
-    border-bottom: 2px solid #eee; /* 给标题加条横线，更有结构感 */
-    padding-bottom: 10px;
-    margin-top: 40px;
-    color: #2c3e50;
-}
+        h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            color: #2c3e50;
+        }
 
-ul {
-    padding-left: 25px;
-}
+        ul { padding-left: 25px; }
+        li { margin-bottom: 12px; }
+        strong { color: #000; }
 
-li {
-    margin-bottom: 12px; /* 列表项之间留点空隙，大字号下不显拥挤 */
-}
+        /* 让年份部分在列表中有固定宽度，排版更整齐 */
+        li b, li strong:first-child {
+            display: inline-block;
+            min-width: 150px;
+        }
 
-strong {
-    color: #000; /* 让你的名字和合作者名字更突出 */
-}
+        /* 4. 语言切换按钮样式 */
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 30px;
+        }
 
-/* 让年份对齐更美观 */
-li b, li strong {
-    display: inline-block;
-    min-width: 100px; /* 如果你想让日期部分稍微对齐 */
-}
+        .lang-switch button {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 6px 16px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 20px;
+            margin-left: 8px;
+            transition: all 0.3s;
+            font-family: sans-serif;
+        }
+
+        .lang-switch button:hover {
+            border-color: #007bff;
+            color: #007bff;
+        }
+
+        .lang-switch button.active {
+            background: #007bff;
+            color: white;
+            border-color: #007bff;
+            box-shadow: 0 2px 4px rgba(0,123,255,0.3);
+        }
+
+        /* 隐藏逻辑 */
+        .lang-content {
+            display: none;
+        }
     </style>
 </head>
 
 <body>
-    <h1>{{ page.title }}</h1> 
+    <div class="lang-switch">
+        <button id="btn-en" onclick="switchLang('en')">English</button>
+        <button id="btn-zh" onclick="switchLang('zh')">中文</button>
+    </div>
+
+    <header>
+        <h1 class="lang-content lang-en">Zhipeng Song</h1>
+        <h1 class="lang-content lang-zh">宋智鹏</h1>
+    </header>
     
-    {{ content }}
+    <main>
+        {{ content }}
+    </main>
+
+    <script>
+        function switchLang(lang) {
+            // 1. 隐藏所有语言相关内容
+            const allContent = document.querySelectorAll('.lang-content');
+            allContent.forEach(el => el.style.display = 'none');
+            
+            // 2. 显示当前选中的语言内容
+            const targetContent = document.querySelectorAll('.lang-' + lang);
+            targetContent.forEach(el => {
+                // 判断是块级元素还是行内元素
+                if (el.tagName === 'H1' || el.tagName === 'DIV' || el.tagName === 'SECTION') {
+                    el.style.display = 'block';
+                } else {
+                    el.style.display = 'inline-block';
+                }
+            });
+            
+            // 3. 切换按钮激活状态
+            document.getElementById('btn-en').classList.remove('active');
+            document.getElementById('btn-zh').classList.remove('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+            
+            // 4. 保存选择到本地缓存
+            localStorage.setItem('preferredLang', lang);
+        }
+
+        // 页面加载时初始化
+        window.onload = function() {
+            const savedLang = localStorage.getItem('preferredLang') || 'en';
+            switchLang(savedLang);
+        };
+    </script>
 </body>
 </html>
