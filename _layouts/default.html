@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <style>
-        /* 1. 基础字号与整体布局 */
         html, body {
             font-size: 21px;
             line-height: 1.8;
             color: #333;
             background-color: #fff;
-            font-family: "Georgia", "Times New Roman", "Source Han Serif SC", serif;
+            font-family: "Georgia", "Times New Roman", serif;
         }
 
         body {
@@ -20,17 +19,11 @@
             padding: 40px 20px;
         }
 
-        /* 2. 移动端自适应 */
         @media (max-width: 768px) {
-            html, body {
-                font-size: 18px;
-            }
-            body {
-                padding: 20px 15px;
-            }
+            html, body { font-size: 18px; }
+            body { padding: 20px 15px; }
         }
 
-        /* 3. 元素样式 */
         a { color: #007bff; text-decoration: none; }
         a:hover { text-decoration: underline; }
         
@@ -57,85 +50,15 @@
             display: inline-block;
             min-width: 150px;
         }
-
-        /* 4. 语言切换按钮样式 */
-        .lang-switch {
-            text-align: right;
-            margin-bottom: 30px;
-        }
-
-        .lang-switch button {
-            background: #fff;
-            border: 1px solid #ddd;
-            padding: 6px 16px;
-            cursor: pointer;
-            font-size: 16px;
-            border-radius: 20px;
-            margin-left: 8px;
-            transition: all 0.3s;
-            font-family: sans-serif;
-        }
-
-        .lang-switch button:hover {
-            border-color: #007bff;
-            color: #007bff;
-        }
-
-        .lang-switch button.active {
-            background: #007bff;
-            color: white;
-            border-color: #007bff;
-            box-shadow: 0 2px 4px rgba(0,123,255,0.3);
-        }
-
-        .lang-content {
-            display: none;
-        }
     </style>
 </head>
 <body>
-    <div class="lang-switch">
-        <button id="btn-en" onclick="switchLang('en')">English</button>
-        <button id="btn-zh" onclick="switchLang('zh')">中文</button>
-    </div>
-
     <header>
-        <h1 class="lang-content lang-en">Zhipeng Song</h1>
-        <h1 class="lang-content lang-zh">宋智鹏</h1>
+        <h1>{{ page.title }}</h1>
     </header>
     
     <main>
         {{ content }}
     </main>
-
-    <script>
-        function switchLang(lang) {
-            var allContent = document.querySelectorAll('.lang-content');
-            for (var i = 0; i < allContent.length; i++) {
-                allContent[i].style.display = 'none';
-            }
-            
-            var targetContent = document.querySelectorAll('.lang-' + lang);
-            for (var j = 0; j < targetContent.length; j++) {
-                var el = targetContent[j];
-                if (el.tagName === 'H1' || el.tagName === 'DIV' || el.tagName === 'SECTION') {
-                    el.style.display = 'block';
-                } else {
-                    el.style.display = 'inline-block';
-                }
-            }
-            
-            document.getElementById('btn-en').className = '';
-            document.getElementById('btn-zh').className = '';
-            document.getElementById('btn-' + lang).className = 'active';
-            
-            localStorage.setItem('preferredLang', lang);
-        }
-
-        window.onload = function() {
-            var savedLang = localStorage.getItem('preferredLang') || 'en';
-            switchLang(savedLang);
-        };
-    </script>
 </body>
 </html>
