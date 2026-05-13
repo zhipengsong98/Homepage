@@ -4,7 +4,7 @@ title: Zhipeng Song 宋智鹏
 ---
 
 <div class="lang-content lang-en">
-  
+
 ## About Me
 
 Hi, welcome to **Zhipeng Song's** homepage. 
@@ -22,7 +22,7 @@ I obtained my PhD at Ghent University and Université Marie et Louis Pasteur. My
 2. (With **Y. Kuznetsova**) Shifted wave equation on non-compact symmetric spaces, 2025, preprint, [arxiv](http://arxiv.org/abs/2504.21479)
 
 
-## Presentations  
+## Presentations  
 - **2026.04** --- Wave equations on noncompact Riemannian symmetric spaces, at Séminaire Théorie de Lie, Géométrie et Analyse, Metz, France
 - **2026.03** --- Multipliers on Lie groups of exponential growth, at Séminaire Analyse Fonctionnelle, Besançon, France
 - **2026.03** --- Multipliers on Lie groups of exponential growth, at Analysis seminar, Harbin, China
@@ -43,16 +43,12 @@ I obtained my PhD at Ghent University and Université Marie et Louis Pasteur. My
 ## Notes
 [Notes for GV](./Symbols.pdf)
 
-**Last update**：{{ site.time | date: "%m/%Y" }}
+**Last update**: {{ site.time | date: "%m/%Y" }}
 
 </div>
 
 <div class="lang-content lang-zh">
 
----
-layout: default
-title: Zhipeng Song 宋智鹏
----
 ## 关于我
 
 你好，欢迎来到**宋智鹏**的个人主页。
@@ -68,7 +64,6 @@ title: Zhipeng Song 宋智鹏
 
 1. (与 **Y. Kuznetsova** 合作) Pointwise and uniform bounds for functions of the Laplacian on non-compact symmetric spaces, 2024, 预印本, [arxiv](https://arxiv.org/abs/2409.02688)
 2. (与 **Y. Kuznetsova** 合作) Shifted wave equation on non-compact symmetric spaces, 2025, 预印本, [arxiv](http://arxiv.org/abs/2504.21479)
-
 ## 会议报告
 - **2026.04** --- Wave equations on noncompact Riemannian symmetric spaces，于 Séminaire Théorie de Lie, Géométrie et Analyse，Metz, France
 - **2026.03** --- Multipliers on Lie groups of exponential growth，于 Séminaire Analyse Fonctionnelle，Besançon, France
@@ -93,4 +88,3 @@ title: Zhipeng Song 宋智鹏
 **最后更新时间**：{{ site.time | date: "%Y年%m月" }}
 
 </div>
-
