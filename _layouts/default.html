@@ -51,9 +51,33 @@
             display: inline-block;
             min-width: 150px;
         }
+
+        .language-switcher {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 16px;
+        }
+
+        .language-switcher button {
+            border: 1px solid #007bff;
+            border-radius: 4px;
+            background: #fff;
+            color: #007bff;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.85rem;
+            padding: 6px 12px;
+        }
+
+        .language-switcher button:hover {
+            background: #f0f7ff;
+        }
     </style>
 </head>
 <body>
+    <div class="language-switcher">
+        <button id="language-toggle" type="button">中文</button>
+    </div>
     <header>
         <h1>{{ page.title }}</h1>
     </header>
@@ -61,5 +85,28 @@
     <main>
         {{ content }}
     </main>
+    <script>
+        (function () {
+            const toggle = document.getElementById('language-toggle');
+            const translatable = document.querySelectorAll('[data-en][data-zh]');
+            const savedLanguage = localStorage.getItem('language') || 'en';
+
+            function setLanguage(language) {
+                document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
+                translatable.forEach(function (element) {
+                    element.textContent = element.dataset[language];
+                });
+                toggle.textContent = language === 'zh' ? 'English' : '中文';
+                localStorage.setItem('language', language);
+            }
+
+            toggle.addEventListener('click', function () {
+                const nextLanguage = document.documentElement.lang === 'zh-CN' ? 'en' : 'zh';
+                setLanguage(nextLanguage);
+            });
+
+            setLanguage(savedLanguage);
+        })();
+    </script>
 </body>
 </html>
