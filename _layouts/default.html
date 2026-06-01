@@ -52,31 +52,6 @@
             min-width: 150px;
         }
 
-        .about-section {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
-            gap: 36px;
-            align-items: start;
-            margin-top: 32px;
-        }
-
-        .about-section h2 {
-            margin-top: 0;
-        }
-
-        .profile-photo {
-            margin: 0;
-        }
-
-        .profile-photo img {
-            width: 100%;
-            aspect-ratio: 4 / 5;
-            object-fit: cover;
-            object-position: 42% center;
-            border-radius: 6px;
-            display: block;
-        }
-
         .language-switcher {
             display: flex;
             justify-content: flex-end;
@@ -98,16 +73,6 @@
             background: #f0f7ff;
         }
 
-        @media (max-width: 768px) {
-            .about-section {
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }
-
-            .profile-photo {
-                max-width: 320px;
-            }
-        }
     </style>
 </head>
 <body>
