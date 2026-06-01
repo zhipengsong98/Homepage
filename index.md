@@ -22,6 +22,8 @@ I obtained my PhD at Ghent University and Université Marie et Louis Pasteur. My
 
 
 ## Presentations  
+- **2026.08** --- Pseudo-differential operators on the ax+b group, at Shanxi, China
+- **2026.07** --- Pseudo-differential operators on the ax+b group, at Yunnan, China
 - **2026.04** --- Wave equations on noncompact Riemannian symmetric spaces, at Séminaire Théorie de Lie, Géométrie et Analyse, Metz, France
 - **2026.03** --- Multipliers on Lie groups of exponential growth, at Séminaire Analyse Fonctionnelle, Besançon, France
 - **2026.03** --- Multipliers on Lie groups of exponential growth, at Analysis seminar, Harbin, China
