@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zhipeng Song (宋智鹏)
+title: Zhipeng Song
 ---
 
 <div class="about-section" markdown="1">

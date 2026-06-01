@@ -115,7 +115,7 @@
         <button id="language-toggle" type="button">中文</button>
     </div>
     <header>
-        <h1>{{ page.title }}</h1>
+        <h1><span data-en="Zhipeng Song" data-zh="宋智鹏">{{ page.title }}</span></h1>
     </header>
     
     <main>
@@ -132,6 +132,7 @@
                 translatable.forEach(function (element) {
                     element.textContent = element.dataset[language];
                 });
+                document.title = language === 'zh' ? '宋智鹏' : 'Zhipeng Song';
                 toggle.textContent = language === 'zh' ? 'English' : '中文';
                 localStorage.setItem('language', language);
             }
