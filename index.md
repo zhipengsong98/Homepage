@@ -13,6 +13,7 @@ title: Zhipeng Song
 - **2021.12 -- 2026.03**, <span data-en="PhD" data-zh="博士">PhD</span>, **<span data-en="Université Marie et Louis Pasteur" data-zh="玛丽与路易·巴斯德大学">Université Marie et Louis Pasteur</span>** <span data-en="and" data-zh="和">and</span> **<span data-en="Universiteit Gent" data-zh="根特大学">Universiteit Gent</span>**, <span data-en="Supervisors" data-zh="导师">Supervisors</span>: [Yulia Kuznetsova](https://ykuznetsova.pages.math.cnrs.fr/index.html) <span data-en="and" data-zh="和">and</span> [Michael Ruzhansky](https://ruzhansky.org)
 - **2020.08 -- 2021.12**, <span data-en="PhD candidate" data-zh="博士生">PhD candidate</span> , **<span data-en="Harbin Institute of Technology" data-zh="哈尔滨工业大学">Harbin Institute of Technology</span>**, <span data-en="Supervisor" data-zh="导师">Supervisor</span>: [Quanhua Xu](https://quanhuaxu.pages.math.cnrs.fr)
 - **2016.08 -- 2020.06**, <span data-en="BS" data-zh="本科">BS</span>, **<span data-en="Harbin Institute of Technology" data-zh="哈尔滨工业大学">Harbin Institute of Technology</span>**
+{: .education-list }
   
 ## <span data-en="Publications" data-zh="论文">Publications</span>
 
