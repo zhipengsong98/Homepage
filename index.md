@@ -6,7 +6,7 @@ title: Zhipeng Song
 ## <span data-en="About Me" data-zh="关于我">About Me</span>
 
 <span data-en="Hi, welcome to " data-zh="您好，欢迎来到">Hi, welcome to </span>**<span data-en="Zhipeng Song's" data-zh="宋智鹏">Zhipeng Song's</span>**<span data-en=" homepage." data-zh="的个人主页。"> homepage.</span><br>
-<span data-en="I obtained my PhD at " data-zh="我博士毕业于">I obtained my PhD at </span><span data-en="Ghent University" data-zh="根特大学">Ghent University</span><span data-en=" and " data-zh="和"> and </span><span data-en="Université Marie et Louis Pasteur" data-zh="玛丽与路易·巴斯德大学">Université Marie et Louis Pasteur</span><span data-en=". My research interests include: Harmonic analysis on symmetric spaces and PDEs on Lie groups. I am currently on the academic job market." data-zh="。我的研究兴趣包括：Harmonic analysis on symmetric spaces 和 PDEs on Lie groups。我目前正在寻找学术职位。">. My research interests include: Harmonic analysis on symmetric spaces and PDEs on Lie groups. I am currently on the academic job market.</span>
+<span data-en="I obtained my PhD at " data-zh="我博士毕业于">I obtained my PhD at </span><span data-en="Ghent University" data-zh="根特大学">Ghent University</span><span data-en=" and " data-zh="和"> and </span><span data-en="Université Marie et Louis Pasteur" data-zh="玛丽与路易·巴斯德大学">Université Marie et Louis Pasteur</span><span data-en=". My research interests include: Harmonic analysis on symmetric spaces and PDEs on Lie groups. I am currently on the academic job market." data-zh="。我的研究兴趣包括：对称空间上的调和分析和李群上的偏微分方程。我目前正在寻找学术职位。">. My research interests include: Harmonic analysis on symmetric spaces and PDEs on Lie groups. I am currently on the academic job market.</span>
 
 ## <span data-en="Educations" data-zh="教育经历">Educations</span>
 
