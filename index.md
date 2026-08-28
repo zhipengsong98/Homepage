@@ -22,8 +22,8 @@ title: Zhipeng Song
 
 
 ## <span data-en="Presentations" data-zh="报告">Presentations</span>
-- **2026.07** --- Wave equations on noncompact Riemannian symmetric spaces, <span data-en="at" data-zh="于">at</span> <span data-en="Shanxi, China" data-zh="山西，中国">Shanxi, China</span>
-- **2026.07** --- Pseudo-differential operators on the ax+b group, <span data-en="at" data-zh="于">at</span> <span data-en="Yunnan, China" data-zh="云南，中国">Yunnan, China</span>
+- **2026.07** --- Wave equations on noncompact Riemannian symmetric spaces, <span data-en="at" data-zh="于">at</span> <span data-en="Taiyuan, China" data-zh="太原，中国">Taiyuan, China</span>
+- **2026.07** --- Pseudo-differential operators on the ax+b group, <span data-en="at" data-zh="于">at</span> <span data-en="Kunming, China" data-zh="昆明，中国">Kunming, China</span>
 - **2026.04** --- Wave equations on noncompact Riemannian symmetric spaces, <span data-en="at" data-zh="于">at</span> Séminaire Théorie de Lie, Géométrie et Analyse, <span data-en="Metz, France" data-zh="梅斯，法国">Metz, France</span>
 - **2026.03** --- Multipliers on Lie groups of exponential growth, <span data-en="at" data-zh="于">at</span> Séminaire Analyse Fonctionnelle, <span data-en="Besançon, France" data-zh="贝桑松，法国">Besançon, France</span>
 - **2026.03** --- Multipliers on Lie groups of exponential growth, <span data-en="at" data-zh="于">at</span> Analysis seminar, <span data-en="Harbin, China" data-zh="哈尔滨，中国">Harbin, China</span>
