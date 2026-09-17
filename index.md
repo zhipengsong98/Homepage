@@ -17,7 +17,7 @@ title: Zhipeng Song
   
 ## <span data-en="Publications" data-zh="论文">Publications</span>
 
-1. (<span data-en="With" data-zh="与">With</span> **Y. Kuznetsova**) Pointwise and uniform bounds for functions of the Laplacian on non-compact symmetric spaces, 2024, <span data-en="preprint" data-zh="预印本">preprint</span>, [arxiv](https://arxiv.org/abs/2409.02688)
+1. (<span data-en="With" data-zh="与">With</span> **Y. Kuznetsova**) Pointwise and uniform bounds for functions of the Laplacian on non-compact symmetric spaces, *J. Geom. Anal.* (2026), [DOI: 10.1007/s12220-026-02606-7](https://doi.org/10.1007/s12220-026-02606-7), [arXiv: 2409.02688](https://arxiv.org/abs/2409.02688)
 2. (<span data-en="With" data-zh="与">With</span> **Y. Kuznetsova**) Shifted wave equation on non-compact symmetric spaces, 2025, <span data-en="preprint" data-zh="预印本">preprint</span>, [arxiv](http://arxiv.org/abs/2504.21479)
 
 
